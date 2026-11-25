@@ -1,0 +1,57 @@
+kolom,kelompok,skenario_A,skenario_A_tanpa_USI,skenario_B_dan_C
+FILENAME,identitas/teks,tidak,tidak,tidak
+URL,identitas/teks,tidak,tidak,tidak
+URLLength,leksikal URL,ya,ya,ya
+Domain,identitas/teks,tidak,tidak,tidak
+DomainLength,leksikal URL,ya,ya,ya
+IsDomainIP,leksikal URL,ya,ya,ya
+TLD,identitas/teks,tidak,tidak,tidak
+URLSimilarityIndex,statistik turunan,ya,tidak,tidak
+CharContinuationRate,statistik turunan,ya,ya,tidak
+TLDLegitimateProb,statistik turunan,ya,ya,tidak
+URLCharProb,statistik turunan,ya,ya,tidak
+TLDLength,leksikal URL,ya,ya,ya
+NoOfSubDomain,leksikal URL,ya,ya,ya
+HasObfuscation,leksikal URL,ya,ya,ya
+NoOfObfuscatedChar,leksikal URL,ya,ya,ya
+ObfuscationRatio,leksikal URL,ya,ya,ya
+NoOfLettersInURL,leksikal URL,ya,ya,ya
+LetterRatioInURL,leksikal URL,ya,ya,ya
+NoOfDegitsInURL,leksikal URL,ya,ya,ya
+DegitRatioInURL,leksikal URL,ya,ya,ya
+NoOfEqualsInURL,leksikal URL,ya,ya,ya
+NoOfQMarkInURL,leksikal URL,ya,ya,ya
+NoOfAmpersandInURL,leksikal URL,ya,ya,ya
+NoOfOtherSpecialCharsInURL,leksikal URL,ya,ya,ya
+SpacialCharRatioInURL,leksikal URL,ya,ya,ya
+IsHTTPS,leksikal URL,ya,ya,ya
+LineOfCode,isi halaman (HTML),ya,ya,tidak
+LargestLineLength,isi halaman (HTML),ya,ya,tidak
+HasTitle,isi halaman (HTML),ya,ya,tidak
+Title,identitas/teks,tidak,tidak,tidak
+DomainTitleMatchScore,isi halaman (HTML),ya,ya,tidak
+URLTitleMatchScore,isi halaman (HTML),ya,ya,tidak
+HasFavicon,isi halaman (HTML),ya,ya,tidak
+Robots,isi halaman (HTML),ya,ya,tidak
+IsResponsive,isi halaman (HTML),ya,ya,tidak
+NoOfURLRedirect,isi halaman (HTML),ya,ya,tidak
+NoOfSelfRedirect,isi halaman (HTML),ya,ya,tidak
+HasDescription,isi halaman (HTML),ya,ya,tidak
+NoOfPopup,isi halaman (HTML),ya,ya,tidak
+NoOfiFrame,isi halaman (HTML),ya,ya,tidak
+HasExternalFormSubmit,isi halaman (HTML),ya,ya,tidak
+HasSocialNet,isi halaman (HTML),ya,ya,tidak
+HasSubmitButton,isi halaman (HTML),ya,ya,tidak
+HasHiddenFields,isi halaman (HTML),ya,ya,tidak
+HasPasswordField,isi halaman (HTML),ya,ya,tidak
+Bank,isi halaman (HTML),ya,ya,tidak
+Pay,isi halaman (HTML),ya,ya,tidak
+Crypto,isi halaman (HTML),ya,ya,tidak
+HasCopyrightInfo,isi halaman (HTML),ya,ya,tidak
+NoOfImage,isi halaman (HTML),ya,ya,tidak
+NoOfCSS,isi halaman (HTML),ya,ya,tidak
+NoOfJS,isi halaman (HTML),ya,ya,tidak
+NoOfSelfRef,isi halaman (HTML),ya,ya,tidak
+NoOfEmptyRef,isi halaman (HTML),ya,ya,tidak
+NoOfExternalRef,isi halaman (HTML),ya,ya,tidak
+label,target,tidak,tidak,tidak

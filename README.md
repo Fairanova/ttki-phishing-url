@@ -2,11 +2,26 @@
 
 Proyek Tata Tulis Karya Ilmiah (TTKI), Sarjana Terapan Teknik Informatika, Politeknik Elektronika Negeri Surabaya (PENS), semester 5. Topik P1: Phishing URL Detection.
 
+## Anggota kelompok
+- Faira Fidelia Novatiara (NRP 3124600062): koordinator eksperimen dan reproduksibilitas
+- Amalia Chasanah Zahty (NRP 3124600088): koordinator literatur dan penulisan
+
 ## 1. Tujuan dan research question
 - Research question: Bagaimana pengaruh pemilihan fitur leksikal URL dan protokol validasi berbasis kelompok domain terhadap F1-score, ROC-AUC, dan waktu inferensi model deteksi phishing pada dataset PhiUSIIL?
 - Hipotesis:
   - H1: Validasi berbasis kelompok domain menghasilkan F1-score dan ROC-AUC yang lebih rendah daripada random split.
   - H2: Penggunaan fitur URL saja mempercepat waktu inferensi dibandingkan fitur lengkap (URL dan isi halaman).
+
+Alur kerja proyek:
+
+```mermaid
+flowchart TD
+    A[Topik dan literatur] --> B[Research gap dan RQ]
+    B --> C[Audit dataset Kaggle dan GitHub]
+    C --> D[Reproduksi baseline dan eksperimen]
+    D --> E[Evaluasi dan penulisan IMRAD]
+    E --> F[Peer review dan rilis GitHub]
+```
 
 ## 2. Sumber data
 - Dataset: PhiUSIIL Phishing URL Dataset (Kaggle)
@@ -56,6 +71,9 @@ Jalankan dari folder `notebooks/`. Kode fungsi berada di `src/preprocessing.py` 
 - `results/metrics.csv`: metrik semua skenario (seed 42)
 - `results/metrics_seeds.csv`: metrik B dan C pada lima seed
 - `figures/`: confusion matrix tiap skenario dan model
+- `docs/feature_groups.csv`: pemetaan kolom ke kelompok fitur dan skenario
+- `references/literature_matrix.csv`: matriks 8 literatur
+- `paper/draft.docx`: draf paper
 
 ## 8. Atribusi dan lisensi
 - Repositori referensi baseline: https://github.com/pradhyumnaag30/PhiUSIIL-Phishing-URL-Detection (hanya sebagai acuan; seluruh hasil di sini berasal dari eksperimen sendiri).
