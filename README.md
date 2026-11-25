@@ -1,4 +1,4 @@
-# Evaluating the Robustness of Machine Learning-Based Phishing URL Detection Using URL Feature Selection and Domain-Aware Validation
+# Evaluasi Ketahanan Deteksi URL Phishing Berbasis Machine Learning Menggunakan Seleksi Fitur URL dan Validasi Berbasis Domain
 
 Proyek Tata Tulis Karya Ilmiah (TTKI), Sarjana Terapan Teknik Informatika, Politeknik Elektronika Negeri Surabaya (PENS), semester 5. Topik P1: Phishing URL Detection.
 
